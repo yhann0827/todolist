@@ -31,9 +31,10 @@ const useStyles = makeStyles({
   grid: { marginTop: "25px", marginBottom: "25px" },
 
   card: {
-    backgroundImage: "linear-gradient(to top, #3A41DA, #2D34B6)",
+    // backgroundImage: "linear-gradient(to top, #3A41DA, #2D34B6)",
+    backgroundImage: "linear-gradient(to bottom, #6B6B6B, #A4A5A4)",
     display: "flex",
-    color: "white",
+    color: "black",
   },
   completedCard: {
     background: `linear-gradient(to top, #00ff00, #008000)`,
@@ -47,7 +48,6 @@ const useStyles = makeStyles({
     textDecoration: "line-through",
   },
   checkbox: {
-    color: "white",
     "&$checked": {
       color: "white",
     },
